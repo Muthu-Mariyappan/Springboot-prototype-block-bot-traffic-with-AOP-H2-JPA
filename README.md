@@ -7,7 +7,7 @@ Bot accesses are tend to be so many requests in short time span. We exploit this
 
 ### Usage of Aspect oriented Programming
 -----------------------------------------
-> Target API to safeguard is simple greetings module. I used AOP to prevent any modifications to actual business logic.
+> Target API to safeguard is a simple greetings module. I used AOP to prevent any modifications to actual business logic.
 
 With the Help of AOP we can preserve the actual business logic, and can add extra utitilites without affecting the source.
 So AOP acts as plugin, we can add or remove at will, without affecting actual application.
